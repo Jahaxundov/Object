@@ -19,7 +19,7 @@ let stu2 = {
 
 let stu3 = {
     id: 3,
-    name: "Idmanci",
+    name: "Cahangir",
     surname: "Axundov",
     age: 20,
     address: "Xetai"
@@ -37,7 +37,7 @@ let stu4 = {
 
 
 let group = {
-    name: "p139",
+    name: "P139",
     capacity: 4,
     students: [],
     addStudent: function (student) {
@@ -97,9 +97,9 @@ group.addStudent(stu1);
 group.addStudent(stu2);
 group.addStudent(stu3);
 group.addStudent(stu4);
-console.log(group.getAllStudents());
+// console.log(group.getAllStudents());
 
-group.searchStudent("idmanci");
+group.searchStudent("caha");
 
 
 
